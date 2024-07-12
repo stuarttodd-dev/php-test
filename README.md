@@ -6,19 +6,13 @@
     ```sh
     cp .env.example .env
     ```
-6. 
-    ```sh
-    composer update
-    ```
-7.
-    ```sh
-    ./vendor/bin/sail up -d
-    ```
-8.
+6. ```sh composer update ```
+7. ```sh ./vendor/bin/sail up -d ```
+9.
 ```sh
 ./vendor/bin/sail npm run dev
 ```
-9. Navigate to http://127.0.0.1:8888
+10. Navigate to http://127.0.0.1:8888
 
 ### Running tests
 

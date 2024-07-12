@@ -7,8 +7,7 @@
 6. ```./vendor/bin/sail up -d```
 7. ```./vendor/bin/sail npm run dev```
 8. Navigate to http://127.0.0.1:8888
-
-![Demo Video](demo.mp4)
+9. Watch demo http://127.0.0.1:8888/demo.mp4
 
 ### Running tests
 ```./vendor/bin/sail artisan test```

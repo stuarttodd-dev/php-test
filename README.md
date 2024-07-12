@@ -2,25 +2,14 @@
 1. Ensure Docker Engine is installed.
 2. Clone this repository.
 4. Navigate to the root directory.
-5. Copy the `.env.example` file to create a new `.env` file:
-    ```sh
-    cp .env.example .env
-    ```
-6. ```sh composer update ```
-7. ```sh ./vendor/bin/sail up -d ```
-9.
-```sh
-./vendor/bin/sail npm run dev
-```
+5. ```cp .env.example .env```
+6. ```composer update```
+7. ```./vendor/bin/sail up -d```
+8. ```./vendor/bin/sail npm run dev```
 10. Navigate to http://127.0.0.1:8888
 
 ### Running tests
-
-```sh
-./vendor/bin/sail artisan test
-```
-
-
+```./vendor/bin/sail artisan test```
 
 # ans/pokédex
 

@@ -1,12 +1,14 @@
 ### Running the Environment
 1. Ensure Docker Engine is installed.
 2. Clone this repository.
-4. Navigate to the root directory.
-5. ```cp .env.example .env```
-6. ```composer update```
-7. ```./vendor/bin/sail up -d```
-8. ```./vendor/bin/sail npm run dev```
-10. Navigate to http://127.0.0.1:8888
+3. Navigate to the root directory.
+4. ```cp .env.example .env```
+5. ```composer update```
+6. ```./vendor/bin/sail up -d```
+7. ```./vendor/bin/sail npm run dev```
+8. Navigate to http://127.0.0.1:8888
+
+![Demo Video](demo.mp4)
 
 ### Running tests
 ```./vendor/bin/sail artisan test```

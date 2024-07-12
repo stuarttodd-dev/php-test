@@ -5,9 +5,10 @@
 4. ```cp .env.example .env```
 5. ```composer update```
 6. ```./vendor/bin/sail up -d```
-7. ```./vendor/bin/sail npm run dev```
-8. Navigate to http://127.0.0.1:8888
-9. Watch demo http://127.0.0.1:8888/demo.mp4
+7. ```./vendor/bin/sail npm install```
+8. ```./vendor/bin/sail npm run dev```
+9. Navigate to http://127.0.0.1:8888
+10. Watch demo http://127.0.0.1:8888/demo.mp4
 
 ### Running tests
 ```./vendor/bin/sail artisan test```

@@ -11,7 +11,7 @@
 10. Watch demo http://127.0.0.1:8888/demo.mp4
 
 ### Running tests
-```./vendor/bin/sail artisan test```
+```./vendor/bin/sail artisan test``` (make sure you're running ```./vendor/bin/sail npm run dev```)
 
 # ans/pokédex
 
